@@ -1,0 +1,154 @@
+@charset "utf-8";
+/*
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: Microsoft YaHei,DejaVu Sans Mono,Ubuntu Mono,Droid Sans Mono;
+    color: #58c7ee;
+}
+
+body{
+    background-color: black;
+}
+
+#login_background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background:rgba(0, 0, 0, 0.5);
+}
+
+#login_input_border{
+    position: fixed;
+    width: 500px;
+    height: 200px;
+    border: 2px #58c7ee solid;
+    z-index: 3;
+    padding-top: 40px;
+}
+
+.login_input{
+    background: 0;
+    border: 0;
+    border-bottom: 1px #58c7ee solid;
+    width: 300px;
+    margin-top: 35px;
+    outline: none;
+}
+
+#login_input_content{
+    text-align: center;
+}
+
+#screen_touch{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background:none;
+}
+
+#options_list{
+    height: 26px;
+    border-bottom: 2px #58c7ee solid;
+}
+
+#options_list_right{
+    height: 26px;
+    float: right;
+}
+
+.olr_li{
+    height: 26px;
+    float: right;
+    list-style: none;
+}
+
+.options_buttons{
+    background: none;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-left: 2px #58c7ee solid;
+    border-right: 2px #58c7ee solid;
+    padding: 3px 5px 3px 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+#content_border{
+    border-left: 2px #58c7ee solid;
+    border-right: 2px #58c7ee solid;
+    border-bottom: 2px #58c7ee solid;
+}
+
+#build_menu{
+    float: right;
+    border-left: 2px #58c7ee solid;
+    width: 100px;
+}
+
+#build_menu_list{
+    padding: 0;
+    margin-top: 20px;
+    border-top: 2px #58c7ee solid;
+}
+
+.bml_li{
+    list-style: none;
+    border-bottom: 2px #58c7ee solid;
+}
+
+.menu_buttons{
+    border: 0;
+    background: none;
+    outline: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+#mouse_rect{
+    border: 1px solid yellow;
+    background-color: rgba(255, 255, 0, 0.2);
+    position: fixed;
+    z-index: 2;
+}
+
+#test_box{
+    border: 2px #58c7ee solid;
+    width: 100px;
+    height: 25px;
+    position: fixed;
+    cursor: pointer;
+}
+
+.frigate{
+    border: 2px #58c7ee solid;
+    width: 100px;
+    height: 25px;
+    position: fixed;
+    cursor: pointer;
+}
+
+.building{
+    width: 200px;
+    height: 200px;
+    position: fixed;
+}
+
+.enemy{
+    border: 2px grey solid;
+}
+
+.bullet{
+    border: 1px solid white;
+    width: 2px;
+    height: 2px;
+    position: fixed;
+}
